@@ -2,7 +2,7 @@
 Search App compilation using different strategies 
 
 ## Road Map
-* ~~Native Php Search (Basic) using table~~
+* ~~Native Php Search (Basic) using table~~ Additional :Want to add pagination and extra information
 * Native Php Search with Highlighter
 * Jquery Hide and Seek Search Plugin 
 * ~~Jquery AutoComplete Search (Basic)~~

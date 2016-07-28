@@ -23,8 +23,16 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(App\Contact::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
+        'imageUrl' => 'http://placekitten.com/160/150',
+        'company' => $faker->company,
+        'job_title' => $faker->title,
         'emailadd' => $faker->email,
-        'phone' => $faker->phoneNumber,
-        'address' => $faker->address,
+        'phone1' => $faker->phoneNumber,
+        'phone2' => $faker->phoneNumber,
+        'street_address1' => $faker->address,
+        'street_address2' => $faker->address,
+        'city' => $faker->city,
+        'postal_code' => $faker->postcode,
+        'country' => $faker->country,
     ];
 });

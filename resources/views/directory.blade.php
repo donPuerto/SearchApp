@@ -31,11 +31,12 @@
             <div class="row"> <!-- Start Main Row-->
                 <div class="jumbotron">
                     <h1>
-                        jQuery AJAX Search App Compilation
+                        Search App Compilation Directory
                     </h1>
                 </div>
 
                 <ul>
+                    <li><a href="{{ url('native-php-search') }}" target="_blank"> Native Php Search (Basic) using table with pagination and additional information </a></li>
                     <li><a href="{{ url('jquery-ui-search-autocomplete') }}" target="_blank">jQuery UI Ajax Search Autocomplete</a></li>
                     <li><a href="{{ url('jquery-ajax-live-data-search-app') }}" target="_blank">jQuery Ajax Live Data Search</a></li>
                     <li><a href="{{ url('jquery-ajax-live-data-search-with-popver') }}" target="_blank">jQuery Ajax Live Data Search with popover</a></li>
